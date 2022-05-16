@@ -1,4 +1,5 @@
-import { StyleSheet } from 'react-native';
+import React from 'react';
+import * as reactNative from 'react-native';
 
 import EditScreenInfo from '../components/EditScreenInfo';
 import { Text, View } from '../components/Themed';
@@ -14,7 +15,7 @@ export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'
   );
 }
 
-const styles = StyleSheet.create({
+const styles = reactNative.StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
