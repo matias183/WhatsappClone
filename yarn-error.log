@@ -1,0 +1,85 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\matia\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @react-navigation/
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Users\matia\AppData\Local\Microsoft\WindowsApps;C:\Users\matia\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\matia\AppData\Roaming\npm;C:\Users\matia\OneDrive\Escritorio\Programacion\sqlite-tools-win32-x86-3380100;
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.13.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@react-navigation%2f: Request "https://registry.yarnpkg.com/@react-navigation%2f" returned a 405
+      at Request.params.callback [as _callback] (C:\Users\matia\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66147:18)
+      at Request.self.callback (C:\Users\matia\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (C:\Users\matia\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (C:\Users\matia\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "whatsappclone",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject",
+      "test": "jest --watchAll"
+    },
+    "jest": {
+      "preset": "jest-expo"
+    },
+    "dependencies": {
+      "@expo/vector-icons": "^13.0.0",
+      "@expo/webpack-config": "~0.16.2",
+      "@react-navigation/bottom-tabs": "^6.0.5",
+      "@react-navigation/native": "^6.0.2",
+      "@react-navigation/native-stack": "^6.1.0",
+      "expo": "~45.0.0",
+      "expo-asset": "~8.5.0",
+      "expo-constants": "~13.1.1",
+      "expo-font": "~10.1.0",
+      "expo-linking": "~3.1.0",
+      "expo-splash-screen": "~0.15.1",
+      "expo-status-bar": "~1.3.0",
+      "expo-system-ui": "~1.2.0",
+      "expo-web-browser": "~10.2.0",
+      "react": "17.0.2",
+      "react-dom": "17.0.2",
+      "react-native": "0.68.2",
+      "react-native-safe-area-context": "4.2.4",
+      "react-native-screens": "~3.11.1",
+      "react-native-web": "0.17.7",
+      "webpack-dev-server": "~3.11.0",
+      "yarn": "^1.22.18"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9",
+      "@types/react": "~17.0.21",
+      "@types/react-native": "~0.66.13",
+      "jest": "^26.6.3",
+      "jest-expo": "~45.0.0",
+      "react-test-renderer": "17.0.2",
+      "typescript": "~4.3.5"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
